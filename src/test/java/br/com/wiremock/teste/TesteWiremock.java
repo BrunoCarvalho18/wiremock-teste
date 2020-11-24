@@ -1,14 +1,11 @@
 package br.com.wiremock.teste;
 
-import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
-import static com.github.tomakehurst.wiremock.client.WireMock.get;
-import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
-import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
+import com.github.tomakehurst.wiremock.junit.WireMockRule;
+import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
-import com.github.tomakehurst.wiremock.junit.WireMockRule;
 
 public class TesteWiremock {
 
@@ -26,6 +23,8 @@ public class TesteWiremock {
 	public void testeStatusCodePositive() {
 
 		given().when().get("http://localhost:8090/exemplo/wiremock").then().assertThat().statusCode(200);
+		verify(1, getRequestedFor(urlEqualTo("/exemplo/wiremock")));
+
 	}
 
 }

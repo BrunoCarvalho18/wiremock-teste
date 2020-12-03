@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: br.com.wiremock.teste.TesteWiremockTodosVerbos
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 4.014 s <<< FAILURE! - in br.com.wiremock.teste.TesteWiremockTodosVerbos
+testeDeletar(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.862 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
+testeAlterarComStatusSomente(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.862 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
+testeRedirecionar(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.862 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
+testeStatusCodePositive(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.862 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
+testeSucessoBody(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.014 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
+testeErro500(br.com.wiremock.teste.TesteWiremockTodosVerbos)  Time elapsed: 0.014 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8091
+Caused by: java.net.BindException: Address already in use: bind
+
